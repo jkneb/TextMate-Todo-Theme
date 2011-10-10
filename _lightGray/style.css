@@ -1,0 +1,121 @@
+/* ================================= */
+/* = Common Stuff for all Commands = */
+/* ================================= */
+
+._lightGray {
+	background: white;
+	color: #666;
+}
+._lightGray a {
+	color: #666;
+}
+
+._lightGray h1 {
+	text-shadow:  #DDDDDD 3px 3px 5px;
+	color: #333;
+}
+._lightGray h2 {
+	color: #222;
+	text-shadow:  #DDDDDD 3px 3px 5px;
+}
+._lightGray h3 {
+	color: #333;
+	/*text-shadow:  #DDDDDD 3px 3px 5px;*/
+}
+._lightGray h4 {
+	color: #666;
+}
+
+._lightGray blockquote {
+	border-left: 4px solid #E6E5DD;
+}
+._lightGray code {
+	color: #1C360C;
+}
+
+._lightGray pre {
+	background-color: #f0f0f0;
+	border: 1px solid #cccbba;
+}
+
+._lightGray .pro_table {
+	border-top: 1px solid #919699;
+	border-left: 1px solid #919699;
+}
+._lightGray .pro_table th {
+	background: #E2E2E2;
+	border-bottom: 1px solid #919699;
+	border-right: 1px solid #919699;
+}
+._lightGray .pro_table td {
+	border-bottom: 1px solid #919699;
+	border-right: 1px solid #919699;
+}
+._lightGray .footnote {
+	color: #525151;
+}
+._lightGray .footnote:before {
+	color: #525151;
+}
+._lightGray .footnote:after {
+	color: #525151;
+}
+._lightGray div.footnotes {
+   background: #F0F0F0;
+}
+
+._lightGray .alternate {
+	background-color: #F0F0F0;
+}
+
+
+/* 
+ * CUSTOM STYLES 
+**************************************************************************/
+
+._lightGray { font: 100% "Helvetica", Arial, sans-serif; }
+
+/* Header styles */
+._lightGray #tm_webpreview_header, 
+._lightGray #tm_webpreview_header:before, 
+._lightGray #tm_webpreview_header:after { border:1px solid #ddd; background-color:#f1f1f1; }
+._lightGray #tm_webpreview_header { opacity:.9; margin:0; z-index:2; border-top:none; height:40px; }
+._lightGray #tm_webpreview_header:before { content:""; display:block; width:100%; height:23px; position:absolute; z-index:2; top:100%; background-color:#fff;  }
+._lightGray #tm_webpreview_header:after { content:""; display:block; width:100%; height:12px; position:absolute; z-index:1; top:125%; box-shadow:0 0 8px #666; }
+
+._lightGray #tm_webpreview_header .headline { text-indent:-9999px; background:url('images/title.png') no-repeat 25px 10px; }
+._lightGray #tm_webpreview_header #theme_switcher { right:5px; font-size:11px; color:#999; }
+._lightGray #tm_webpreview_header .type { top:100%; right:0; margin:0; border: 1px solid #ddd; color:#999; padding:5px 10px; background-color:#f1f1f1; }
+._lightGray #tm_webpreview_header .type:before { content:"Path: "; position:absolute; left:-35px; }
+._lightGray #tm_webpreview_header img { display:none; }
+
+/* Buttons */
+._lightGray .counters li { margin-right:5px; opacity:.9; border-radius:4px; padding:8px !important; border:none !important; }
+._lightGray .counters li:hover { cursor:pointer; opacity:1; }
+._lightGray .counters li,
+._lightGray .counters li a, 
+._lightGray .counters li span { font-size:12px; text-transform:lowercase; text-decoration:none; color:white !important; }
+.bg_total, .bg_total > span { background-color:lightGray !important; }
+
+/* Options bloc */
+._lightGray fieldset { border:1px solid #ccc; padding:10px; border-radius:4px; font-size:13px; background-color:#f1f1f1; }
+._lightGray fieldset legend { font-weight:bold; }
+._lightGray fieldset p:before, ._lightGray fieldset p:after { content:""; display:table; }
+._lightGray fieldset p:after { clear:both; }
+._lightGray fieldset label.filter { /*display:block; position:static;*/ }
+._lightGray fieldset input[type="text"] { margin-left:0; border:1px solid #ccc; padding:7px; border-radius:4px; }
+._lightGray #info_no_results { padding:25px 25px 25px 0; }
+
+/* TODOS tables */
+._lightGray h3 { border-bottom:1px solid #ccc; border-radius:4px 4px 0 0; padding:5px 0; margin-bottom:0; }
+._lightGray table.todo_content { /*width:100%;*/ }
+._lightGray table.todo_content th { font-family:"Helvetica", Arial !important; padding:2px 5px; border-bottom-color:#ddd !important; background-color:rgba(0,0,0,.03); }
+._lightGray table.todo_content th a { color:#999; font-size:12px; }
+
+/* Link go to top */
+._lightGray #toplink { font-size:11px; border:1px solid #ccc; right:0px; bottom:5px; padding:5px; background-color:#eee; opacity:.5; }
+.lightGray #toplink:hover { opacity:1; }
+
+
+
+
