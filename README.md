@@ -1,9 +1,9 @@
 Custom nice theme for the TextMate TODO bundle
 ===========================
 
-* [_lightGray preview](http://72.10.34.95/temp/lightGray-theme.png)
-
 TextMate ships with an awesome TODO bundle feature to help you track your project todos, bugs or whatever you would like to keep track of. Yeah it's awesome... BUT the default themes just sucks :) So if you're like me and you can't stand using awesome but ugly tools... here's the double rainbow all aver the way yeah. Your sad TODO bundle eyes wait for that litle shine of happyness for too long... make it happy, make it sexy :D
+
+* [_lightGray preview](http://72.10.34.95/temp/lightGray-theme.png)
 
 ## Installation guide: 
 
